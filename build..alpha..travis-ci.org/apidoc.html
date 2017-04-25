@@ -61,12 +61,58 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.peer-vnc">module peer-vnc</a><ol>
 
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">peer-vnc.</span>inflator</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.peer-vnc.inflator">module peer-vnc.inflator</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.peer-vnc.inflator.Inflate">
+            function <span class="apidocSignatureSpan">peer-vnc.inflator.</span>Inflate
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.peer-vnc" id="apidoc.module.peer-vnc">module peer-vnc</a></h1>
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.peer-vnc.inflator" id="apidoc.module.peer-vnc.inflator">module peer-vnc.inflator</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.peer-vnc.inflator.Inflate" id="apidoc.element.peer-vnc.inflator.Inflate">
+        function <span class="apidocSignatureSpan">peer-vnc.inflator.</span>Inflate
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Inflate = function () {
+    this.strm = new ZStream();
+    this.chunkSize = 1024 * 10 * 10;
+    this.strm.output = new Uint8Array(this.chunkSize);
+    this.windowBits = 5;
+
+    zlib.inflateInit(this.strm, this.windowBits);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
