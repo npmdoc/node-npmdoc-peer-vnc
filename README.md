@@ -1,9 +1,14 @@
-# api documentation for  [peer-vnc (v2.3.1)](https://github.com/InstantWebP2P/peer-vnc#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-peer-vnc.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-peer-vnc) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-peer-vnc.svg)](https://travis-ci.org/npmdoc/node-npmdoc-peer-vnc)
+# npmdoc-peer-vnc
+
+#### basic api documentation for  [peer-vnc (v2.3.1)](https://github.com/InstantWebP2P/peer-vnc#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-peer-vnc.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-peer-vnc) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-peer-vnc.svg)](https://travis-ci.org/npmdoc/node-npmdoc-peer-vnc)
+
 #### access to VNC desktop from anywhere
 
-[![NPM](https://nodei.co/npm/peer-vnc.png?downloads=true)](https://www.npmjs.com/package/peer-vnc)
+[![NPM](https://nodei.co/npm/peer-vnc.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/peer-vnc)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-peer-vnc/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-peer-vnc_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-peer-vnc/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-peer-vnc/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-peer-vnc/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-peer-vnc/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-peer-vnc/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-peer-vnc/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "Tom Zhou",
-        "email": "iwebpp@gmail.com"
+        "name": "Tom Zhou"
     },
     "bin": {
         "peer-vnc": "./bin/peer-vnc-direct"
@@ -58,13 +62,11 @@
     "main": "index",
     "maintainers": [
         {
-            "name": "iwebpp",
-            "email": "zs68j2ee@gmail.com"
+            "name": "iwebpp"
         }
     ],
     "name": "peer-vnc",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/InstantWebP2P/peer-vnc.git"
@@ -73,16 +75,6 @@
     "version": "2.3.1"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module peer-vnc](#apidoc.module.peer-vnc)
-
-
-
-# <a name="apidoc.module.peer-vnc"></a>[module peer-vnc](#apidoc.module.peer-vnc)
 
 
 
